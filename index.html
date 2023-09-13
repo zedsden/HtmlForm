@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="icon" type="image/x-icon" href="/Lab1/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body style="background-image: url('https://2.bp.blogspot.com/-B2m5npFGaPc/V2QseCTaXfI/AAAAAAAAArw/6bpPgdizRoEV2nRKuEKglYDRcGdVCOFDACLcB/s1600/COMSAT.jpg'); background-size: 2200px ">
+<center>
+    <h1 id="h1">Admission Form</h1>
+    <form action="" id="Form" method="post">
+        
+        <label for="studentName" >Student Name:*</label>
+        <input type="text" placeholder="Enter your name" required>
+        <br>
+        <hr>
+        <label for="fatherName">Father Name:*</label>
+        <input type="text" placeholder="Enter your father's name" required>
+        <br>
+        <hr>
+        <label for="cityOfResidence">City Of Residence:*</label>
+        <select id="citySelect" required >
+            <option disabled selected value="">Select a city</option>
+            <option value="karachi" >Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="rawalpindi">Rawalpindi</option>
+            <option value="faisalabad">Faisalabad</option>
+           
+        </select>
+        <br>
+        <hr>
+        <label for="country">Country (Applicable to Foreign Students Only):</label>
+        <select id="countries" name="country" required>
+            <option disabled selected value="">Select a country</option>
+            
+            <option value="afghanistan">Afghanistan</option>
+            <option value="albania">India</option>
+            <option value="algeria">Nepal</option>
+            <option value="algeria">Bangladesh</option>
+            <option value="algeria">Bhutan</option>
+        </select>
+        <br>
+        <hr>
+        <label for="gender:">Gender*</label>
+        <input type="radio" id="male" name="gender" value="MALE">Male</input>
+        <input type="radio" id="female" name="gender" value="FEMALE">Female</input>
+        <input type="radio" id="not_specified" name="gender" value="NOT_SPECIFIED">Not Specified</input>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label for="campus">Campus Name:*</label>
+        
+            <li>
+            <input type="checkbox" id="abbottabad" name="campus" value="ABBOTTABAD">Abbottabad</input>
+            </li>
+            <li>
+            <input type="checkbox" id="wah" name="campus" value="WAH">Wah</input>
+            </li>
+            <li>
+            <input type="checkbox" id="lahore" name="campus" value="LAHORE">Lahore</input>
+            </li>
+            <li>    
+            <input type="checkbox" id="sahiwal" name="campus" value="SAHIWAL">Sahiwal</input>
+            </li>
+       
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label for="program">Program Of Choice:*</label>
+        <select name="program" id="program">
+            <option disabled selected value="">Select a program</option>
+            
+        <option value="computerscience">ComputerScience</option>
+        <option value="softwareengineering">SoftwareEngineering</option>
+        <option value="bachelorsbussinessadministration">BusinessAdministration</option>
+        <option value="geology">Geology</option>
+        <option value="biotechnology">Biotechnology</option>
+        <option value="pharmacy">Pharmacy</option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <label for="previousFieldOfSutdy:">Previous Field Of Study:*</label>
+        <ul>
+        <li>
+        <input type="radio" id="pre-eng" name="field" value="PRE-ENGINEERING">Pre-Engineering</input>
+        </li>
+        <li>
+        <input type="radio" id="pre-medical" name="field" value="PRE-MEDICAL">Pre-Medical</input>
+        </li>
+        <li>
+        <input type="radio" id="ics" name="field" value="ICS">ICS</input>
+        </li>
+        <li>
+        <input type="radio" id="other" name="field" value="OTHERS">Others</input>
+        </li>
+        </ul>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <button type="submit" >Submit</button>
+
+        
+    </form>
+    
+</center>
+
+
+</body>
+</html>

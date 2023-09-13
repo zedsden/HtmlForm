@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+
+  
+  /* Apply a soothing background color */
+  body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+    display: -moz-grid-line;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the form container */
+  form {
+    background-color: #fff;
+    font-style: italic;
+    box-shadow: 0px 0px 10px rgba(50, 47, 47, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  /* Style form headings */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Style form inputs */
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style radio buttons and checkboxes */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: green;
+    transform: scale(1.05); /* Add a slight scaling effect on hover */
+  }
+  
+  /* Center the button horizontally */
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  /* Style HR lines */
+  hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Style the submit button
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+   */
